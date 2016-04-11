@@ -10,5 +10,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target( { ElementType.TYPE,ElementType.METHOD })
 public @interface MyTestCaseAnnotation {
-	public String caseMemo() default "12388888";
+	public String caseMemo() default "1";
 }
